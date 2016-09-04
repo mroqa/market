@@ -1,0 +1,14 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/angular-ui-router/src/viewScroll.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/nvd3/package.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/gulpfile.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/nvd3/meteor/export.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/ionic/js/angular/angular-animate.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/nvd3/nv.d3.min.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/js/services.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/nvd3/nv.d3.js",
+        "C:/Users/Mhammed/Documents/ionic/udemyapp/market/www/lib/nvd3/build/nv.d3.min.js"
+    ]
+}

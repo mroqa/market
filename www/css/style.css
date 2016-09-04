@@ -1,0 +1,262 @@
+/*notes card style*/
+
+#stock-notes .add-stock-notes{
+    border: 1px solid #ff9800;
+    border-radius: 3px;
+    color: #ff9800;
+    float: right;
+    font-size: 11pt;
+    font-weight: 300;
+    padding: 0 5px;
+}
+
+#stock-note-title{
+    border-bottom: 1px solid #eee;
+    padding: 0 5px;
+}
+
+#stock-note-body{
+    min-height: 100px;
+    padding: 10px 5px 5px;
+}
+
+
+.font-normal{
+    font-weight: normal !important;
+}
+
+.border-none{
+    border: none !important;
+}
+
+#search {
+    background-color: rgba(20,20,20,.975);
+}
+
+#search .search-input {
+    background-color: rgba(255,255,255,.1);
+}
+
+#search input {
+    color: #000;
+}
+
+.margin-auto,
+.margin-auto svg {
+    margin: auto !important;
+}
+
+.text-align-center {
+    text-align: center !important;
+}
+
+.right{
+    float: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+/*Market data card*/
+
+#market-data-card{
+    font-size: 3.25vmin;
+}
+
+#market-data-card .col-20{
+    font-weight: bolder;
+}
+
+#market-data-card .col-20:last-of-type{
+    text-align: right;
+}
+
+#market-data-card .last-trade{
+    font-size: 3vmin;
+    float: right;    
+}
+
+
+/*stock navbar*/
+
+#stock-navbar ion-header-bar{
+    border: none;
+}
+
+#stock-navbar .back-text{
+    font-size: 11pt;
+}
+
+
+/*stock subheader bar*/
+
+#stock-subheader-bar{
+    border-top: none;
+}
+
+#stock-name{
+    color: #333;
+    float: left;
+    font-size: 3.5vmin;
+    font-weight: normal;
+    margin: auto 0;
+    max-width: 33vw;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis
+}
+
+#stock-price{
+    font-size: 7vmin;
+    line-height: 32pt;
+}
+
+#stock-change{
+    font-size: 4vmin;
+    font-weight: bolder;
+    float: right;
+    line-height: 12pt;
+    margin: auto 0;
+}
+
+/*short button bar*/
+
+#short-button-bar .button{
+    line-height: normal;
+    min-height: 10px;
+    border: none;
+    border-radius: 0;
+    font-size: 9pt;
+    background-color: #fff;
+}
+
+#short-button-bar .button.active{
+    font-weight: bold;
+}
+
+#short-button-bar{
+    -webkit-box-shadow: 0px 0px 0px 1px #ddd;
+}
+
+
+
+/*Chart Style*/
+
+#interactiveChart{
+    height: 80vmin;
+}
+
+.nv-focus .nv-barsWrap,
+.nv-focus .nv-y1 .tick,
+.nv-focus .nv-y1 .nv-axisMaxMin,
+.nv-focus .nv-y1 .domain,
+.nv-context .nv-x .nv-axisMaxMin,
+.nv-focus .nv-y2 .nv-axisMaxMin,
+.nv-focus .nv-y2 .domain,
+.nv-focus .nv-y2 .tick {
+    display: none !important;
+}
+
+.nv-focus .nv-x .tick:first-of-type text,
+interactiveChart text.nv-axislabel {
+    text-anchor: start !important;
+}
+
+.nv-focus .nv-y2 .tick text,
+.nv-focus .nv-y2 .nv-axisMaxMin text,
+.nv-focus .nv-x .tick:last-of-type text,
+.nv-context .nv-y1 .tick text,
+.nv-context .nv-y1 .nv-axisMaxMin text {
+  text-anchor: end !important;
+}
+
+#interactiveChart svg text {
+  font-size: 3vmin !important;
+}
+
+#interactiveChart .nv-axis line /* interior grid */ {
+  stroke-dasharray: 3,3;
+  stroke: #ddd;
+}
+
+#interactiveChart .nv-axis path.domain /* both charts' bounding boxes */ {
+  stroke-dasharray: 4,4;
+  stroke-opacity: .5;
+  stroke-width: 1px;
+}
+
+#interactiveChart .nv-focus .domain /* top chart bounding box color */ {
+  stroke: #1e88e5;
+}
+
+#interactiveChart .nv-focus .nv-axislabel,
+#interactiveChart .nv-focus .nv-axisMaxMin text /* top chart label and max/min values colors */ {
+  fill: #1e88e5;
+}
+
+#interactiveChart .nv-context .domain /* bottom chart */ {
+  stroke: #ff9800;
+}
+
+#interactiveChart .nv-context .nv-axislabel,
+#interactiveChart .nv-context .nv-axisMaxMin text {
+  fill: #ff9800;
+}
+
+#interactiveChart .nv-focus .nv-y2 .tick text,
+#interactiveChart .nv-context .nv-y1 .tick text /* both charts' y axis interior range values colors */ {
+  fill: #ccc;
+}
+
+#interactiveChart .nv-focus .nv-line /* top chart price line */ {
+  stroke: #2196f3;
+  stroke-width: 2px;
+}
+
+#interactiveChart .nv-context .nv-line /* bottom chart price line */ {
+  stroke: #aaa;
+  stroke-opacity: .75;
+  stroke-width: 1px;
+}
+
+#interactiveChart .nv-line {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#interactiveChart .nv-barsWrap rect /* bottom chart volume bars */ {
+  fill: #ff9800;
+  fill-opacity: 1;
+  shape-rendering: crispEdges;
+}
+
+#interactiveChart .nv-brushBackground rect /* context chart range scroller */ {
+  shape-rendering: crispEdges;
+  stroke-width: 1;
+  stroke: #ccc;
+}
+
+
+/*adjusment Style*/
+
+
+svg text{
+    font: 400 10pt "Helvetica Neue", sans-serif !important;
+}
+
+
+
+/*helper style*/
+
+.display-flex{
+    display: flex !important;
+}
+
+.no-margin{
+    margin: 0 !important;
+}
